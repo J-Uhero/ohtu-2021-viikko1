@@ -14,7 +14,7 @@ class TestVarasto(unittest.TestCase):
         self.assertAlmostEqual(self.varasto.saldo, 0)
 
     def test_konstruktori_tekee_nollatun_varaston_kun_tilavuus_negatiivinen(self):
-        self.assertAlmostEqual(self.epakelpo_varasto.tilavuus, 0) #testi korjattu taas toimivaksi
+        self.assertAlmostEqual(self.epakelpo_varasto.tilavuus, 1) #kuuluisi olla 0
 
     def test_uudella_varastolla_oikea_tilavuus(self):
         self.assertAlmostEqual(self.varasto.tilavuus, 10)
