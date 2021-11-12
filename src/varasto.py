@@ -26,7 +26,6 @@ class Varasto:
             self.saldo = self.tilavuus
 
     def ota_varastosta(self, maara):
-        print("liiiian pitkä rivi jeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee!")
         if maara < 0:
             return 0.0
         if maara > self.saldo:
